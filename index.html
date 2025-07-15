@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Explora el portafolio de Michael, desarrollador web front-end. Proyectos destacados usando Next.js, TypeScript y TailwindCSS con enfoque en usabilidad, rendimiento y buenas prácticas de desarrollo."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Michael Robayo Diaz</title>
+   
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        const mode = localStorage.getItem("mode") || "light";
+        document.documentElement.dataset.theme = mode;
+      })();
+    </script>
+  </head>
+  <body class="grid-background-container">
+    <div class="container grid-overlay"></div>
+
+    <div class="menu">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#SobreMi">Sobre Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="mailto:michaelrobayo.dev@gmail.com">Contacto</a></li>
+          <li><a href="#Skills">Skills</a></li>
+        </ul>
+      </nav>
+      <div class="toggle-mode">
+        <button aria-label="change to mode light">
+          <img
+            src="images/light_mode.webp"
+            width="30px"
+            height="30px"
+            alt="Icon change mode"
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <header class="site-header">
+        <div class="availability">
+          <a
+            href="https://www.linkedin.com/in/michael-stiven-robayo-diaz-730303367/"
+            target="_blank"
+            >Disponible para trabajar</a
+          >
+        </div>
+      </header>
+      <main>
+        <section id="inicio">
+          <div class="profile">
+            <img
+              src="images/fotoperfil.webp"
+              width="90px"
+              height="90px"
+              alt="perfil Michael picture"
+            />
+            <h1>Hola, Soy Michael</h1>
+            <p>
+              Soy un apasionado del <strong>desarrollo web</strong>  de
+              Colombia, especializado en front-end, Actualmente, estoy ampliando
+              mis conocimientos estudiando back-end, con el objetivo de
+              convertirme en un <strong>desarrollador full-stack</strong>.
+            </p>
+            <div class="social-links">
+              <button>Resumen</button>
+
+              <a href="mailto:michaelrobayo.dev@gmail.com" target="_blank">
+                <img src="images/arroba.webp" alt="link to my email" />
+              </a>
+              <a href="https://github.com/MichaelStivendev" target="_blank"
+                ><img src="images/github.svg" alt="link to my github"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/michael-stiven-robayo-diaz-730303367/"
+                target="_blank"
+                ><img src="images/linkedin.svg" alt="link to my linkedin"
+              /></a>
+              <a href="https://x.com/MisdiCode" target="_blank"
+                ><img src="images/twitter.png" alt="link to my x"
+              /></a>
+            </div>
+          </div>
+        </section>
+        <section id="proyectos">
+          <h2>Proyectos</h2>
+          <div class="image-grid">
+            <div class="card card-1">
+              <a href="https://userperfilegithub.netlify.app/" target="_blank">
+                <img
+                  src="images/956_1x_shots_so.webp"
+                  alt="proyecto de github perfil"
+                />
+              </a>
+            </div>
+            <div class="card card-2">
+              <a href="https://dev-country-page.netlify.app/" target="_blank"
+                ><img
+                  src="images/260shots_so.webp"
+                  alt="proyecto de listado de mundos"
+              /></a>
+            </div>
+            <div class="card card-3">
+              <a href="https://country-quiz-smoky.vercel.app/" target="_blank">
+                <img src="images/133_1x_shots_so.webp" alt="proyecto de quiz" />
+              </a>
+            </div>
+            <div class="card card-4">
+              <a
+                href="https://music-player-dev-challenge.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  src="images/232_1x_shots_so.webp"
+                  alt="proyecto de reproductor de musica"
+              /></a>
+            </div>
+            <div class="card card-5">
+              <a
+                href="https://multi-steps-register.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  src="images/256_1x_shots_so.webp"
+                  alt="proyecto de formulario con pasos"
+              /></a>
+            </div>
+            <div class="card card-6">
+              <a href="https://qrgeneratev2.netlify.app/" target="_blank">
+                <img
+                  src="images/948_1x_shots_so.webp"
+                  alt="proyecto de generador de qr"
+              /></a>
+            </div>
+            <div class="card card-7">
+              <a href="https://homepagedev.netlify.app/" target="_blank">
+                <img
+                  src="images/674_1x_shots_so.webp"
+                  alt="proyecto de home page"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="Skills">
+          <h2>Skills</h2>
+          <div class="skill-icon">
+            <div class="card-icon">
+              <img
+                src="images/social.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>Git</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/github-sign.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>GitHub</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/html-5.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>HTML5</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/css-3 3.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>CSS3</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/icons8-nextjs-480.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>Nextjs</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/js.webp"
+                alt="incono de las habilidades "
+                <img
+                src="images/js"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>JavaScript</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/mysql.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>MySQL</p>
+            </div>
+            <div class="card-icon">
+              <img
+                src="images/nestjs.webp"
+                alt="incono de las habilidades "
+                width="30px"
+                height="30px"
+              />
+              <p>Nestjs</p>
+            </div>
+          </div>
+        </section>
+        <section id="SobreMi">
+          <h2>Sobre Mí</h2>
+          <p>
+            !Hola! Soy <strong> Michael Robayo Diaz</strong>, mi camino comenzó
+            en el mundo multimedia, donde me gradué como Tecnólogo en Producción
+            Multimedia. <br /><br />
+            Durante esa etapa, Descubrí mi fascinación por el mundo
+            del desarrollo web. Mi especialidad es el
+            <strong>front-end</strong> , sin embargo, el estudio del campo del
+            desarrollo web me ha llevado a adquirir un amplio conocimiento en
+            back-end, permitiéndome desarrollar sitios web mas completos.
+            <br /><br />
+            Me considero un apasionado por aprender y mejorar constantemente.
+            Disfruto enfrentando nuevos desafíos y trabajando en equipo para
+            crear soluciones que generen una buena experiencia a los
+            usuarios. ¡Siempre estoy listo para dar lo mejor de mí en cada
+            proyecto!
+          </p>
+        </section>
+        <section id="Aprendiendo">
+          <h2>Actualmente Aprendiendo</h2>
+          <div class="tec-learning">
+            <img
+              src="images/icons8-angularjs-480.webp"
+              alt="aprendiendo angular"
+            />
+            <img src="images/java.webp" alt="aprendiendo java" />
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="social-footer">
+          <a href="mailto:michaelrobayo.dev@gmail.com" target="_blank"
+            ><img src="images/arroba.webp" alt="link to my email"
+          /></a>
+          <a href="https://github.com/MichaelStivendev" target="_blank" >
+            <img src="images/github.svg" alt="link to my github" />
+          </a>
+          <a href="https://www.linkedin.com/in/michael-stiven-robayo-diaz-730303367/" target="_blank">
+            <img src="images/linkedin.svg" alt="link to my linkedin" />
+          </a>
+          <a href="https://x.com/MisdiCode" target="_blank" >
+            <img src="images/twitter.png" alt="Link to my x" />
+          </a>
+        </div>
+        <p>
+          &copy; 2025 <span>misdidev</span>. casi todos los derechos reservados
+        </p>
+      </footer>
+    </div>
+
+    <script src="JavaScript.js"></script>
+  </body>
+</html>
